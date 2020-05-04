@@ -24,7 +24,7 @@ object OrToolsHelper {
     @JvmStatic
     fun loadLibrary(loader: ClassLoader) {
         val path = ClasspathUtils.extractResourcesToTempDirectory(
-            "${Platform.RESOURCE_PREFIX}/",
+            "classpath:" + "${Platform.RESOURCE_PREFIX}/",
             "ortools-java",
             loader
         )
