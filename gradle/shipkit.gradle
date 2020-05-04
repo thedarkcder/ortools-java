@@ -17,7 +17,7 @@ allprojects {
                 name = project.name
                 licenses = ['Apache-2.0']
                 labels = ['jvm', 'java', 'native', 'google-ortools', 'ortools', 'or-tools', 'jna']
-                githubRepo = 'thedarkcder/classpath-resource-extractor'
+                githubRepo = 'thedarkcder/ortools-java'
                 githubReleaseNotesFile = 'docs/release-notes.md'
                 vcsUrl = 'https://github.com/thedarkcder/ortools-java.git'
             }
